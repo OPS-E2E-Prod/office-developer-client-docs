@@ -1,22 +1,6 @@
 {
   "docsets_to_publish": [
     {
-      "docset_name": "officedocs-dev-client-docs",
-      "build_source_folder": "docs",
-      "build_output_subfolder": "officedocs-dev-client-docs",
-      "locale": "en-us",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
-    },
-    {
       "docset_name": "officedocs-dev-client-docs-prod",
       "build_source_folder": "docs",
       "build_output_subfolder": "officedocs-dev-client-docs-prod",
@@ -47,9 +31,24 @@
       "url": "https://github.com/Microsoft/templates.docs.msft",
       "branch": "master",
       "branch_mapping": {}
+    },
+    {
+      "path_to_root": "_themes.pdf",
+      "url": "https://github.com/Microsoft/templates.docs.msft.pdf",
+      "branch": "master",
+      "branch_mapping": {}
     }
   ],
-  "branch_target_mapping": {},
+  "branch_target_mapping": {
+    "live": [
+      "Publish",
+      "Pdf"
+    ],
+    "master": [
+      "Publish",
+      "Pdf"
+    ]
+  },
   "need_generate_pdf_url_template": true,
   "targets": {
     "pdf": {
