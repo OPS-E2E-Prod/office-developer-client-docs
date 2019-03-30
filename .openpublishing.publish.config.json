@@ -1,9 +1,9 @@
 {
   "docsets_to_publish": [
     {
-      "docset_name": "officedocs-dev-client-docs",
+      "docset_name": "officedocs-dev-client-docs-prod",
       "build_source_folder": "docs",
-      "build_output_subfolder": "officedocs-dev-client-docs",
+      "build_output_subfolder": "officedocs-dev-client-docs-prod",
       "locale": "en-us",
       "monikers": [],
       "moniker_ranges": [],
